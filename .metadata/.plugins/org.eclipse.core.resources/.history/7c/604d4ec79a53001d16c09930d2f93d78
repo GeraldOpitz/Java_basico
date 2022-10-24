@@ -1,0 +1,15 @@
+package cl.generation.f20221024;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// las variables
+		//var nombre_variable
+		
+		//variables primitivas, caracter estatico
+		int numero = 2;// variable numerica -2^31 y +2^31-1
+		
+
+	}
+
+}

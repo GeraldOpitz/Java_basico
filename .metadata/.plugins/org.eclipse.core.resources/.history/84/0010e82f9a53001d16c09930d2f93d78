@@ -1,0 +1,13 @@
+package cl.generation.f20221024;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// las variables
+		//var nombre_variable
+		
+		//variables primitivas
+
+	}
+
+}

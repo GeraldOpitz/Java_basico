@@ -1,0 +1,22 @@
+package cl.generation.f20221024;
+
+public class Ejercicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numero3 = 20;
+		long numero4 = 12312312312l;
+		Float numero5 = (float) 435342432;
+		Double numero6 = 1231231243223D;
+		
+		System.out.println(Integer.valueOf(numero3).longValue());
+		System.out.println(Integer.valueOf(numero3).floatValue());
+		System.out.println(Integer.valueOf(numero3).doubleValue());
+		System.out.println(Long.valueOf(numero4).intValue());
+		System.out.println(Long.valueOf(numero4).floatValue());
+		System.out.println(Long.valueOf(numero4).doubleValue());
+		System.out.println(numero5.doubleValue());
+	}
+
+}
