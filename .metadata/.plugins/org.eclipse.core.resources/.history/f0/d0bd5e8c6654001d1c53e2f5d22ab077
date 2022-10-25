@@ -1,0 +1,20 @@
+package cl.generation.f20221025;
+
+import java.util.ArrayList;
+
+public class ArregloDinamico {
+
+	public static void main(String[] args) {
+		// ArrayList
+		//1.- Definicion
+		ArrayList<String> Grupo_3 = new ArrayList<String>();
+		//2.-Agregar valores al arreglo
+		Grupo_3.add("Gerald");
+		Grupo_3.add("Brisa");
+		Grupo_3.add("Barbara");
+		Grupo_3.add("Fatima");
+		Grupo_3.add("Sebastian");
+		System.out.println(Grupo_3);
+	}
+
+}

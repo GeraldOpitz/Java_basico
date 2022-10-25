@@ -1,0 +1,13 @@
+package cl.generation.f20221025;
+
+import java.util.ArrayList;
+
+public class ArregloDinamico {
+
+	public static void main(String[] args) {
+		// ArrayList
+		ArrayList<String> Grupo_3 = new ArrayList<String>();
+
+	}
+
+}

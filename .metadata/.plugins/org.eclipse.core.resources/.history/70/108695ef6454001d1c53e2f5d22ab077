@@ -1,0 +1,11 @@
+package cl.generation.f20221025;
+
+public class ArregloDinamico {
+
+	public static void main(String[] args) {
+		// ArrayList
+		ArrayList<TIPODATO> nombre_array = new ArrayList<TIPODATO>;
+
+	}
+
+}

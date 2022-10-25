@@ -1,0 +1,52 @@
+package cl.generation.f20221024;
+
+import java.util.Arrays;
+
+public class Ejercicio {
+
+	public static void main(String[] args) {
+		int [] numerosa10 = new int[10];
+		numerosa10 [0] = -12;
+		numerosa10 [1] = 145;
+		numerosa10 [2] = 30;
+		numerosa10 [3] = -22;
+		numerosa10 [4] = 45;
+		numerosa10 [5] = 98;
+		numerosa10 [6] = 5000;
+		numerosa10 [7] = 65;
+		numerosa10 [8] = -2000;
+		numerosa10 [9] = 74;
+
+
+	//numero maximo
+	int numerosamaximo = 0;
+	int numerosaminimo = 0;
+		for(int i = 0; i < numerosa10.length;i++)
+	  {
+	    if(numerosamaximo < numerosa10[i])
+	    {
+	      numerosamaximo = numerosa10[i];
+	    }
+	  }
+	System.out.println((numerosamaximo));
+	
+	for(int i = 0; i < numerosa10.length;i++)
+	  {
+	    if(numerosaminimo > numerosa10[i])
+	    {
+	      numerosaminimo = numerosa10[i];
+	    }
+	  }
+	System.out.println((numerosaminimo));
+	
+	int[] par = {};
+	int[] impar = {}
+	
+	
+	
+	
+	
+	
+	
+	}
+}
