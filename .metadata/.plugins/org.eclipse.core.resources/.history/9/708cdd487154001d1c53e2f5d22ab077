@@ -1,0 +1,22 @@
+package cl.generation.f20221025;
+
+import java.util.HashSet;
+
+public class ArregloHashSet {
+
+	public static void main(String[] args) {
+		// set o HasSet
+		//1.- Definicion st o HashSet
+		///HashSet<TIPODATO> nombre_array= new HashSet<TIPODATO>();
+		HashSet<String> relatores= new HashSet<String>();
+		
+		//2.- Agregar elemento al arreglo
+		relatores.add("Alejandro");
+		relatores.add("Andrea");
+		relatores.add("Alejandro");
+		relatores.add("Israel");
+		System.out.println(relatores);
+
+	}
+
+}

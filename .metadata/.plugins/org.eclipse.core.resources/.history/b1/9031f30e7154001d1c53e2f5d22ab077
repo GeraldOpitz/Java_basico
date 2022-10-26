@@ -1,0 +1,15 @@
+package cl.generation.f20221025;
+
+import java.util.HashSet;
+
+public class ArregloHashSet {
+
+	public static void main(String[] args) {
+		// set o HasSet
+		//1.- Definicion st o HashSet
+		///HashSet<TIPODATO> nombre_array= new HashSet<TIPODATO>();
+		HashSet<String> relatores= new HashSet<String>();
+
+	}
+
+}
