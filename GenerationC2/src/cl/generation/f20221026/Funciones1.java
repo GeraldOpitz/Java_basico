@@ -16,7 +16,7 @@ public class Funciones1 {
 		metodo5 (arreglito);
 		//métodos con llamados
 		//retorno1();//no hace nada con el valor retornado
-		//System.out.println();
+		//System.out.println(retorno1();
 		Integer valorRetornado = retorno1();
 		System.out.println(valorRetornado);
 		System.out.println(valorRetornado/7); //35/7=5
@@ -24,6 +24,8 @@ public class Funciones1 {
 		
 		String nombreCompleto = obtenerNombreCompleto("Gerald", "Opitz", "Prado");
 		System.out.println("El nombre completo es: "+nombreCompleto);
+		//swager
+		llamadaAOtroMetodo();
 
 	}
 	//definición o  estructura de un método
@@ -67,6 +69,13 @@ public class Funciones1 {
 	public static String obtenerNombreCompleto(String nombre,String apePaterno, String apeMaterno) {
 		String nombreCompleto = nombre+" "+" "+apePaterno+" "+apeMaterno;
 		return nombreCompleto;//retornamos el contenido de la variable
+	}
+	
+	//metodo que llama a otro metodo
+	
+	public static void llamadaAOtroMetodo( ) {
+		System.out.println("Llamada a otro metodo desde un metodo");
+		metodo4(1234,54.3F);
 	}
 	
 	

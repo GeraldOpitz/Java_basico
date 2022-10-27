@@ -1,0 +1,15 @@
+package cl.generation.f20221026;
+
+public class ejercicioPaciente {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static String obtenerNombreCompleto(String nombre,String apePaterno, String apeMaterno) {
+		String nombreCompleto = nombre+" "+" "+apePaterno+" "+apeMaterno;
+		return nombreCompleto;//retornamos el contenido de la variable
+	}
+
+}

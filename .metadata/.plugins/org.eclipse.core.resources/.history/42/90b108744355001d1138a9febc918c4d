@@ -1,0 +1,23 @@
+package cl.generation.f20221026;
+
+import java.util.Scanner;
+
+public class BucleDoWhileTest {
+
+	public static void main(String[] args) {
+		// doWhile
+		Scanner scanner = new Scanner(System.in);
+		int edad = 0;
+		Float peso00;
+		
+		do {
+			System.out.println("Ingresa tu edad: ");
+			edad = scanner.nextInt();
+			
+		} while (edad < 18);
+		
+		scanner.close();
+
+	}
+
+}
