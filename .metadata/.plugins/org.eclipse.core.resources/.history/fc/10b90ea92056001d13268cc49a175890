@@ -1,0 +1,22 @@
+package cl.generation.f20221027;
+
+public class Auto {
+	ruedas
+	espejos
+	motor
+	asientos
+	manubrio
+	color
+	marca
+	modelo
+	
+	//cuales son las acciones que realiza un auto
+	transporte
+	trasladar
+	abrir y cerrar puertas
+	etc
+	
+	
+	
+	
+}

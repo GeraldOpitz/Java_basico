@@ -1,0 +1,21 @@
+package cl.generation.f20221027;
+
+public class UsoObjeto {
+
+	public static void main(String[] args) {
+		// instancia de clase
+		Auto auto1 = new Auto();
+		auto1.text="dafadsf";
+		//auto1.color="rojo";
+		
+		//asignar valores a los atributos privados
+		//solo a traves del metodo setter
+		auto1.setColor("rojo");
+		auto1.setMarca("Peugeot");
+		//saber el contenido de los atributos
+		System.out.println(auto1.toString());
+			
+		
+	}
+
+}				

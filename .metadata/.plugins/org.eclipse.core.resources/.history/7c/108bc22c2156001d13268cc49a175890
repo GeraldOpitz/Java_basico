@@ -1,0 +1,12 @@
+package cl.generation.f20221027;
+
+public class Auto {
+// atributos
+	private String marca; //"Nissan"
+	private String color;// negro
+	private String modelo;// ñuñuqui
+	private Float cilindrada;// 1.6 o 2.4
+	
+	
+	
+}

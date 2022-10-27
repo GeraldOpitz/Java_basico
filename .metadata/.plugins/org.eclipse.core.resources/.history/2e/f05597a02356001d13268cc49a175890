@@ -1,0 +1,41 @@
+package cl.generation.f20221027;
+
+public class Auto {
+// atributos
+	private String marca; //"Nissan"
+	private String color;// negro
+	private String modelo;// ñuñuqui
+	private Float cilindrada;// 1.6 o 2.4
+	private Float rendimiento;// 10.5 km/h
+	private Float velocidad;// km/h
+	//encapsulamiento/herencia
+	public Auto() {
+		super();
+	}
+	public Auto(String marca, String color, String modelo, Float cilindrada, Float rendimiento, Float velocidad) {
+		super();
+		this.marca = marca;
+		this.color = color;
+		this.modelo = modelo;
+		this.cilindrada = cilindrada;
+		this.rendimiento = rendimiento;
+		this.velocidad = velocidad;
+	}
+	
+	//getters y setters (accesador y mutador)
+	
+	
+	
+	
+	
+	//Constructor
+	// nos permite instanciar al objeto
+	// nos permite inicializar los atributos
+	
+	
+	
+	
+	
+	
+	
+}

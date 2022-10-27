@@ -1,0 +1,11 @@
+package cl.generation.f20221027;
+
+public class UsoObjeto {
+
+	public static void main(String[] args) {
+		// instancia de clase
+		Auto auto1 = new Auto();
+
+	}
+
+}

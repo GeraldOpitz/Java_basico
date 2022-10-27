@@ -1,0 +1,6 @@
+package cl.generation.f20221027;
+
+public class Auto {
+// atributos
+	private String marca; //"Nissan"
+}
